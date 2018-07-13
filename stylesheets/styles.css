@@ -25,6 +25,18 @@ body {
   background: #5EF9CA;
 }
 
+button {
+  background-color: black;
+  border: none;
+  height: 100px !important;
+  width: 150px !important;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
 a[href="#"] {
   text-decoration: none;
 }
@@ -96,7 +108,7 @@ a[href="#"] {
 .detail-image-frame {
   position: relative;
   text-align: center;
-  transition: transform 333ms cubic-bezier(.87, .27, .15, .8);
+  transition: transform 133ms cubic-bezier(.87, .27, .15, .8);
 }
 
 .is-tiny {
@@ -106,6 +118,10 @@ a[href="#"] {
 
 .detail-image {
   width: 90%;
+}
+
+.arrow-left .arrow-right {
+  max-width: 10%;
 }
 
 .detail-image-title {
@@ -129,6 +145,10 @@ a[href="#"] {
 
 .hidden-detail .thumbnail-item {
   max-width: 80%;
+}
+
+.key-thumbnail {
+  order: 1;
 }
 
 @media all and (min-width: 768px) {
